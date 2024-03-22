@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đặt Hàng</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            max-width: 400px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        header{
+        background-color: rgb(8, 17, 19);
+        color: antiquewhite;
+        padding: 20px;
+        }
+       
+    
+    .menu ul{
+            list-style-type: none;
+            display: flex;
+            justify-content: space-between;
+        }
+        .menu ul li{
+            margin-right: 15px;
+            font-size: 25px;
+        }
+        .menu ul li:hover{
+            background-color: aqua;
+            border-radius: 10px;
+            padding: 10px;
+        }
+        .menu ul li a:hover{
+            cursor: pointer;
+        }
+
+        h1 {
+            text-align: center;
+            color: #444;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"],
+        textarea,
+        select {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            font-size: 16px;
+        }
+
+        button[type="submit"] {
+            background-color: #4caf50;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Trang chủ</a></li>
+                <li><a href="./Iphone.html">Iphone</a></li>
+                <li><a href="./Ipad.html">Ipad</a></li>
+                <li><a href="./SamSung.html">SamSung  </a></li>
+                <li><a href="dangnhap.html">Đăng nhập</a></li>
+                <li><a href="dangki.html">Đăng ký</a></li> 
+            </ul>
+        </nav>
+    </header>
+        <h1>Trang Đặt Hàng</h1>
+        <form action="/process_order" method="post">
+            <label for="name">Họ và tên:</label><br>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="address">Địa chỉ giao hàng:</label><br>
+            <textarea id="address" name="address" required></textarea><br>
+
+            <label for="phone">Số điện thoại:</label><br>
+            <input type="tel" id="phone" name="phone" required><br>
+
+            <label for="product">Sản phẩm:</label><br>
+            <select id="product" name="product" required>
+                <option value="product1">Sản phẩm 1</option>
+                <option value="product2">Sản phẩm 2</option>
+                <option value="product3">Sản phẩm 3</option>
+                <option value="product4">Sản phẩm 4</option>
+                <option value="product5">Sản phẩm 5</option>
+                <option value="product6">Sản phẩm 6</option>
+                <option value="product7">Sản phẩm 7</option>
+                <option value="product1">Sản phẩm 8</option>
+                <option value="product2">Sản phẩm 9</option>
+                <option value="product3">Sản phẩm 10</option>
+                <option value="product4">Sản phẩm 11</option>
+                <option value="product5">Sản phẩm 12</option>
+                <option value="product6">Sản phẩm 13</option>
+                <option value="product7">Sản phẩm 14</option>
+                <option value="product1">Sản phẩm 15</option>
+                <option value="product2">Sản phẩm 16</option>
+                <option value="product3">Sản phẩm 17</option>
+                <option value="product4">Sản phẩm 18</option>
+                <option value="product5">Sản phẩm 19</option>
+                <option value="product6">Sản phẩm 20</option>
+                <option value="product7">Sản phẩm 21</option>
+                <option value="product1">Sản phẩm 22</option>
+                <option value="product2">Sản phẩm 23</option>
+                <option value="product3">Sản phẩm 24</option>
+                <option value="product4">Sản phẩm 25</option>
+                <option value="product5">Sản phẩm 26</option>
+                <option value="product6">Sản phẩm 27</option>
+                <option value="product7">Sản phẩm 28</option>
+                <option value="product5">Sản phẩm 29</option>
+                <option value="product6">Sản phẩm 30</option>
+                <option value="product7">Sản phẩm 31</option>
+                <option value="product1">Sản phẩm 32</option>
+                <option value="product2">Sản phẩm 33</option>
+                <option value="product3">Sản phẩm 34</option>
+                <option value="product4">Sản phẩm 35</option>
+                <option value="product5">Sản phẩm 36</option>
+                <option value="product6">Sản phẩm 37</option>
+                <option value="product7">Sản phẩm 38</option>
+            </select><br>
+            <label for="quantity">Số lượng:</label><br>
+            <input type="number" id="quantity" name="quantity" min="1" required><br>
+            <br>
+
+            <button type="submit"><a href="./dathangtc.html">Đặt hàng</button>
+        </form>
+    </div>
+</body>
+</html>
