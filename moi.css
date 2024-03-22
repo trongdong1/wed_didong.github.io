@@ -1,0 +1,221 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.mc{
+    color: black;
+}
+header{
+background-image: url(./anhdai.jpg);
+    background-color: rgb(6, 194, 236);
+    color: antiquewhite;
+    padding: 20px;
+    }
+.name_banner{
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+}
+.header{
+    background-image: url(./);    
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    padding: 30px;
+}
+.login-container {
+    background-color: #fff;
+    padding: 160px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login-form {
+    max-width: 300px;
+    margin: auto;
+  }
+  .g{
+    text-align: center;
+  }
+  .login-form h2 {
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  button {
+    width: 30%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+.hl1{color: yellowgreen;
+    background-color: darkred;
+    border: 1px blue dashed;
+    width: 500px; height: 50px;
+    text-align: center;
+    margin: 0px auto;
+    font-size: 16px;
+    padding: 55px 15px 20px 15px;
+    font-weight: bold;
+    border-radius: 10px;}
+.menu ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+.menu ul li{
+    margin-right: 15px;
+    font-size: 25px;
+}
+.menu ul li:hover{
+    background-color: aqua;
+    border-radius: 10px;
+    padding: 10px;
+}
+.menu ul li a:hover{
+    cursor: pointer;
+}
+header h1{
+    margin: 30px 15px 10px 0;
+    text-align: center;
+    font-size: 40px
+}
+main{
+    padding: 50px;
+}
+
+.s1{
+    margin-bottom: 50px;
+}
+.s1 p{
+    text-align: center;
+}
+.s1 h2{
+    text-align: center;
+    margin:  0 0 20px;
+}
+.sps{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.sp{
+    width: calc(33.33%-20px);
+    margin-bottom: 50px;
+    text-align: center;
+    border: 1px solid rgb(0, 255, 26);
+    border-radius: 10px;
+    width: 366px;
+    height: 520px;
+}
+
+.sp:hover{
+    background-color: yellowgreen;
+}
+.sp img{
+    width: 90%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.sp h3{
+    margin: 10px 0;
+}
+.sp button{
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 0px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.sp button:hover{
+    background-color: red;
+}
+.s2{
+    text-align: center;
+}
+.s2 forn input{
+    margin-left: 50px;
+    width: 300px;
+    height: 30px;
+    margin-top: 20px;
+}
+#email{
+    margin-left: 70px;
+}
+#message{
+    margin-left: 54px;
+}
+#fname{
+    margin-left: 50px;
+}
+.s2 forn button{
+    background-color: #333;
+    color: #fff;
+    margin-top: 20px;
+    width: 50px;
+    height: 50px;
+    margin-left: 370px;
+    cursor: pointer;
+}
+.s2 button:hover{
+    background-color: red;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.giacu{background-color: yellow; font-weight: bold;}
+.footer {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 20px 0;
+}
+.footer .centered-div {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.footer .noidung {
+    display: flex;
+    justify-content: center;
+}
+
+.footer .bang1 {
+    width: 80%;
+    border-collapse: collapse;
+}
+
+.footer .bang1 td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.footer .bang1 td:first-child {
+    width: 60%;
+}
